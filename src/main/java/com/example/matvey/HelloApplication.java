@@ -1,18 +1,18 @@
-package com.example.demo;
+package com.example.matvey;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class HelloApplication extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 800, 500);
-        stage.setTitle("Лабораторная работы №6");
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("ww.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 700, 400);
+        stage.setTitle("Лабораторная работа №6");
         stage.setScene(scene);
         stage.show();
     }

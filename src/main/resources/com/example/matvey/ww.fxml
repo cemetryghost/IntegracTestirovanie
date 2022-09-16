@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="forClose" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: MediumSlateBlue;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.matvey.HelloController">
+   <children>
+      <Text layoutX="101.0" layoutY="120.0" stroke="#a12828" strokeType="OUTSIDE" strokeWidth="0.0" text="Описать функцию Stepen (x,n) от вещественного x и целого n, вычисляющую величину x в степени n, и использовать её для вычисления степени пяти чисел. Массив не использовать. Числа вводить в цикле." wrappingWidth="519.0">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Button id="firstButton" layoutX="254.0" layoutY="260.0" mnemonicParsing="false" onAction="#toEnterData" prefHeight="79.0" prefWidth="193.0" style="-fx-background-color: #FFD700;" text="Вперёд">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

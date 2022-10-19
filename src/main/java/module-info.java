@@ -9,6 +9,7 @@ module com.example.matvey {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires jdk.management;
 
     opens com.example.matvey to javafx.fxml;
     exports com.example.matvey;
